@@ -7,11 +7,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scroll Project</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://use.fontawesome.com/26a542beeb.js"></script>
 </head>
 
 <body>
-
+    <!--header-->
+    <header id="home">
+        <nav id="nav">
+            <div class="nav-center">
+                <!--nav header-->
+                <div class="nav-header">
+                    <img src="./logo.svg" alt="logo" class="logo">
+                    <button class="nav-toggle">
+                        <i class="fa fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+            <!--links-->
+            <ul class="links">
+                <li>
+                    <a href="#home" class="scroll-link">home</a>
+                </li>
+                <li>
+                    <a href="#about" class="scroll-link">about</a>
+                </li>
+                <li>
+                    <a href="#services" class="scroll-link">services</a>
+                </li>
+                <li>
+                    <a href="#tours" class="scroll-link">tours</a>
+                </li>
+            </ul>
+        </nav>
+        <!--banner-->
+        <div class="banner">
+            <div class="container">
+                <h1>scroll project</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero consectetur dolor et molestias aperiam corrupti fuga iusto, accusantium adipisci officia!</p>
+            </div>
+        </div>
+    </header>
+    <!--about-->
+    <section id="about" class="section">
+        <div class="title">
+            <h2>about<span>us</span></h2>
+        </div>
+    </section>
+    <!--services-->
+    <section id="services" class="section">
+        <div class="title">
+            <h2>our<span>services</span></h2>
+        </div>
+    </section>
+    <!--tours-->
+    <section id="tours" class="section">
+        <div class="title">
+            <h2>featured<span>tours</span></h2>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="section">
+        <p>
+            copyright &copy; nkg travel tours <span class="date">2022</span> .all rights reserved
+        </p>
+    </footer>
 </body>
+<!--back to top btn-->
+<a href="#home" class="scroll-link top-link">
+    <i class="fa fas fa-arrow-up"></i>
+</a>
+<!--JS-->
 <script src="app.js"></script>
 
 </html>
